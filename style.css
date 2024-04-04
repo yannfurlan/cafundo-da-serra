@@ -1,0 +1,92 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+body, html, p, b {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: #24522E !important;
+    color: #872426 !important;
+}
+
+#menu .active{
+    color: #fff !important;
+    opacity: 0.5;
+}
+#menu a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    opacity: 0.5;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 15px;
+    padding-top: 90px;
+}
+
+#carouselExampleDark {
+    width: 550px;
+    height: 750px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 90px;
+}
+
+#sobre .box-texto {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#sobre .box-texto .texto {
+    max-width: 450px;
+}
+
+#sobre .box-texto img {
+    max-width: 450px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 90px;
+}
+
+#premios {
+    margin-top: 15px;
+    padding-top: 90px;
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding-top: 20px;
+    justify-content: center;
+    background-color: #872426;
+    color:#fff;
+}
+
+#contato div {
+    margin-right: 20px;
+}
